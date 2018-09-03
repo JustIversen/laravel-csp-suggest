@@ -29,4 +29,4 @@ The following arguments are available:
 | --raw | Ask the plugin to output the raw CSP policy together with the spatie configuration file generated. |
 
 ## License
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
