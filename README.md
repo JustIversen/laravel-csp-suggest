@@ -20,7 +20,7 @@ You can install the package via composer:
 ## Usage
 Run the following artisan command to start the wizard:
 
-``php artisan cspsuggest``
+``php artisan cspsuggest:run``
 
 Answer the questions asked by the wizard, and it will create the policy for you.
 
