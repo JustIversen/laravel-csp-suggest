@@ -27,3 +27,6 @@ The following arguments are available:
 | -y | Don't ask about whether to include the resource or not, just include all. |
 | --url=.. | Override the URL to scan. Default is APP_URL. |
 | --raw | Ask the plugin to output the raw CSP policy together with the spatie configuration file generated. |
+
+## License
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
