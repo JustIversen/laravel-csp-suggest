@@ -1,5 +1,5 @@
 # laravel-csp-suggest
-Package that generates a configuration file for the [spatie/laravel-csp package](https://github.com/spatie/laravel-csp).
+Package that generates a configuration file for the [spatie/laravel-csp](https://github.com/spatie/laravel-csp) package.
 
 The package contains an artisan command that acts as a wizard. The wizard
 1. Scans your APP_URL for resources
@@ -8,7 +8,7 @@ The package contains an artisan command that acts as a wizard. The wizard
 4. Asks you about some general CSP decisions
 5. Outputs configuration file, you can use as a starting point for the spatie/laravel-csp package.
 
-This package aims to help you avoiding the console error debug-way of setting up your CSP policy.
+This package aims to help you avoiding the console error debug-way of setting up your Content Security Policy.
 
 ## Installation
 You can install the package via composer:
