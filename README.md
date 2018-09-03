@@ -12,8 +12,8 @@ Let the artisan wizard do the heavy lifting. Content Security Policy setup the e
 
 This package aims to help you avoiding the console error debug-way of setting up your Content Security Policy.
 
-## Installation :dash:
-You can install the package via composer:
+## Installation
+:dash: You can install the package via composer:
 
 ``composer require --dev KristianI/laravel-csp-suggest``
 
