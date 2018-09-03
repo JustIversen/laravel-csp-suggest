@@ -1,4 +1,4 @@
-# laravel-csp-suggest
+# Laravel Content Security Policy (CSP) wizard
 Package that generates a configuration file for the [spatie/laravel-csp](https://github.com/spatie/laravel-csp) package.
 
 Let the artisan wizard do the heavy lifting. Content Security Policy setup the easy way.
@@ -22,7 +22,7 @@ Run the following artisan command to start the wizard:
 
 ``php artisan cspsuggest``
 
-The wizard will create the policy for you, if only you answer the questions asked.
+Answer the questions asked by the wizard, and it will create the policy for you.
 
 The following arguments are available:
 
