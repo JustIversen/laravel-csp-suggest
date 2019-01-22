@@ -20,7 +20,7 @@ This package aims to help you avoiding the console error debug-way of setting up
 ## Usage
 Run the following artisan command to start the wizard:
 
-``php artisan cspsuggest:run``
+``php artisan csp:run``
 
 Answer the questions asked by the wizard, and it will create the policy for you.
 
