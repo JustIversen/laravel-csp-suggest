@@ -15,12 +15,12 @@ This package aims to help you avoiding the console error debug-way of setting up
 ## Installation
 :dash: You can install the package via composer:
 
-``composer require --dev kristiani/laravel-csp-suggest``
+``composer require --dev justiversen/laravel-csp-suggest``
 
 ## Usage
 Run the following artisan command to start the wizard:
 
-``php artisan csp:run``
+``php artisan csp:suggest``
 
 Answer the questions asked by the wizard, and it will create the policy for you.
 
@@ -28,9 +28,8 @@ The following arguments are available:
 
 | Name | Description |
 | --- | --- |
-| -y | Don't ask about whether to include the resource or not, just include all. |
-| --url=[http://your-url] | Override the URL to scan. Default is http://APP_URL. |
-| --raw | Ask the plugin to output the raw CSP policy together with the spatie configuration file generated. |
+| --baseurl=[http://your-base-url] | Override the base URL. Default is APP_URL. |
+| --raw | Ask the plugin to output the raw CSP policy together with the spatie configuration file generated. (TBD) |
 
 ## License
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
