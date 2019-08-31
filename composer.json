@@ -1,0 +1,53 @@
+{
+    "name": "justiversen/laravel-csp-suggest",
+    "description": "Package that generates a configuration file for the spatie/laravel-csp package.",
+    "keywords": [
+        "csp",
+        "artisan",
+        "justiversen"
+    ],
+    "homepage": "https://github.com/justiversen/laravel-csp-suggest",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jens Just Iversen",
+            "email": "jens@justiversen.dk",
+            "homepage": "https://justiversen.dk",
+            "role": "Developer"
+        },
+        {
+            "name": "Kristian Just",
+            "email": "kristian@justiversen.dk",
+            "homepage": "https://justiversen.dk",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "illuminate/console": "~5.8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JustIversen\\CspSuggest\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JustIversen\\CspSuggest\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JustIversen\\CspSuggest\\CspSuggestServiceProvider"
+            ]
+        }
+    }
+}
