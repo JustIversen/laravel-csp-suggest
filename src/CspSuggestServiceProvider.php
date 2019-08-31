@@ -7,15 +7,14 @@ use Illuminate\Support\ServiceProvider;
 
 class CspSuggestServiceProvider extends ServiceProvider
 {
-    public function boot()
+    public function boot(): void
     {
         if ($this->app->runningInConsole()) {
             $this->registerArtisanCommands();
         }
-        
     }
     
-    public function register()
+    public function register(): void
     {
         //
     }

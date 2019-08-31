@@ -57,13 +57,13 @@ class CspSuggestCommand extends Command
      *
      * @return void
      */
-    public function handle()
+    public function handle() : void
     {
         $this->comment('Now scanning web endpoints for URL\'s to include in the Content Security Policy.');
 
         $urls = $this->routes->get()->map(function ($route) {
             return $this->contentUrl->extract((new Crawler)($route));
-        })->flatten();
+        })->flatten()->all();
 
         $filename = $this->configurationFile->add($urls)->build()->persistToFile();
 
